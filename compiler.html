@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Play with IGNITE</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <!-- MDB core CSS -->
+    <link href="http://mdbootstrap.com/mdbcdn/mdb.min.css" rel="stylesheet">
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+    </script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="http://mdbootstrap.com/mdbcdn/mdb.min.js"></script>
+
+    <!-- Material Design Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"  rel="stylesheet" >
+
+</head>
+<body>
+<div class="container">
+    <!--Navigation-->
+    <nav class="navbar red navbar-fixed-top z-depth-1 " role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand waves-effect waves-light" href="index.html">IGNITE</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html" class="waves-effect waves-light">Home<span class="sr-only">(current)</span></a></li>
+                    <li class="active"><a href="#" class="waves-effect waves-light">Compile</a></li>
+                    <li><a href="documentation.html" class="waves-effect waves-light">Documentation</a></li>
+                    <li><a href="contact.html" class="waves-effect waves-light">Contact us</a></li>
+                    <li><a href="about.html" class="waves-effect waves-light">About</a></li>
+
+                </ul>
+                <form class="navbar-form navbar-right" role="search">
+                    <div class="form-group waves-effect waves-light">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav><!-- End navigation bar -->
+</div>
+
+    <!-- Compiler Text Area -->
+<div class="container" style="margin-top:61px;">
+    <br/>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 bg-info text-center box">
+            <h4>Input code here</h4>
+            <textarea class="form-control" name="code" id="code" cols="70" rows="25" style="resize: none;"></textarea>
+        </div>
+        <div class="col-md-6 bg-danger text-center box">
+            <h4>Output Show here</h4>
+            <div id="output">
+
+            </div>
+        </div>
+    </div>
+    <br/><br/>
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4"><button class="btn btn-success btn-group btn-group-justified" onclick="compile();">RUN</button></div>
+        <div class="col-md-4"></div>
+    </div>
+</div>
+
+    <!-- Compiler Text Area end -->
+
+<div class="container-fluid">
+    <!--Footer section-->
+    <footer class="page-footer elegant-color center-on-small-only">
+        <div class="container-fluid">
+            <div class="row">
+
+
+                <div class="call-to-action inline-block">
+                    <ul class="list-inline">
+                        <li>
+                            <h5 class="white-text">Thanks For Being Here </h5></li>
+                        <li> <a class="btn btn-danger waves-effect waves-light">FEEDBACK!</a></li>
+                    </ul>
+                </div>
+
+                <div class="social-section text-center">
+                    <a class="btn-floating btn-large fb-bg waves-effect waves-light" href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook"> </i></a>
+                    <a class="btn-floating btn-large tw-bg waves-effect waves-light" href="http://www.twitter.com" target="_blank"><i class="fa fa-twitter"> </i></a>
+                    <a class="btn-floating btn-large gplus-bg waves-effect waves-light" href="http://www.google.com" target="_blank"><i class="fa fa-google-plus"> </i></a>
+                    <a class="btn-floating btn-large li-bg waves-effect waves-light" href="http://www.linkedin.com" target="_blank"><i class="fa fa-linkedin"> </i></a>
+                    <a class="btn-floating btn-large git-bg waves-effect waves-light" href="http://www.github.com/SharjeelAhmed007/Compiler-construction" target="_blank"><i class="fa fa-github"> </i></a>
+                    <a class="btn-floating btn-large email-bg waves-effect waves-light"><i class="fa fa-envelope-o"> </i></a>
+                </div>
+
+
+                <div class="footer-copyright text-center rgba-black-light">
+                    <div class="container-fluid">
+                        © 2016 Copyright: <a href="#">Ignite.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/.Footer section-->
+</div>
+</body>
+</html>
